@@ -13,5 +13,8 @@
   ],
   "author": "aniviayz",
   "license": "GNU",
-  "git repository" : "https://github.com/aniviayz/NodejsMongodbLog"
+  "git repository": "https://github.com/aniviayz/NodejsMongodbLog",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
