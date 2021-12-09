@@ -15,6 +15,7 @@
   "license": "GNU",
   "git repository": "https://github.com/aniviayz/NodejsMongodbLog",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0"
   }
 }
