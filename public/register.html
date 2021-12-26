@@ -9,15 +9,15 @@
 <body>
     <p>************************190110910204************************</p>
     <p>*************************mongodb操作************************</p>
-    <p><a href="login.html">登录</a><a href="register.html">注册</a></p>
+    <p><a href="login.html">登录</a><a href="index.html">首页</a></p>
     <form name="myForm" action="/input" method="get">
-        数据1: <input type="text" name="first"><br>
-        数据2: <input type="text" name="second"><br>
-        <input type="submit" name="submit1" value="Write">
-        <input type="submit" name="submit1" value="Read">
+        用户名: <input type="text" name="username"><br>
+        密码: <input type="password" name="userpwd1"><br>
+        重复你输入密码: <input type="password" name="userpwd2"><br>
+        <input type="submit" name="submit1" value="Register">
 
     </form>
-
+    <p><%= returnVal%></p>
     <p>***********************************************************</p>
 </body>
 </html>
